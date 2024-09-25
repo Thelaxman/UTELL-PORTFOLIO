@@ -1,0 +1,24 @@
+/* CSS for NavBar component */
+
+/* Style the navigation container */
+nav {
+  /* Change this color to your desired background color */
+  width: 100%;
+  color: black; /* Text color */
+  padding: 15px;
+
+  text-align: right;
+}
+
+/* Style the individual navigation links */
+nav p {
+  display: inline-block;
+  margin: 0 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Hover effect for navigation links */
+nav p:hover {
+  background-color: ##0096ff;
+}
